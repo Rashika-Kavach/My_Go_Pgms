@@ -12,16 +12,16 @@ type mytype int
 var b mytype
 
 func main() {
-	a=42
+	a = 42
 	fmt.Println(a)
-	fmt.Printf("%T\n",a)
-	b=43
+	fmt.Printf("%T\n", a)
+	b = 43
 	fmt.Println(b)
-	fmt.Printf("%T\n",b)
+	fmt.Printf("%T\n", b)
 
 	//Type Conversion: Coverted b of type "mytpe" to "int"
 	//and have assigned it to a of type "int"
-	a=int(b)
+	a = int(b)
 	fmt.Println(a)
-	fmt.Printf("%T\n",a)
+	fmt.Printf("%T\n", a)
 }

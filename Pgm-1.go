@@ -5,17 +5,17 @@
 //Now print the values stored in those variables using,
 //a single print statement and multiple print statements
 
-
 package main
+
 import "fmt"
 
 func main() {
-	x:= 42
-	y:= "James Bond"
-	z:= true
+	x := 42
+	y := "James Bond"
+	z := true
 
 	//prints in a single statement
-	fmt.Println("Printing in a Single Statement:", x,y,z)
+	fmt.Println("Printing in a Single Statement:", x, y, z)
 
 	//prints in multiple lines
 	fmt.Println("Printing in a Multiple Statement:")
@@ -23,4 +23,3 @@ func main() {
 	fmt.Println(y)
 	fmt.Println(z)
 }
-

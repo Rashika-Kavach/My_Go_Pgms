@@ -17,6 +17,7 @@ package main
 import "fmt"
 
 type meow int
+
 var x meow
 var y int
 

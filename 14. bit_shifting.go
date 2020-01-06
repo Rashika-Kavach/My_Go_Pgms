@@ -4,9 +4,9 @@ import "fmt"
 
 const (
 	_ = iota
-	s = 1 << (iota * 10)  //10 times shifting 1s
-	t = 1 << (iota * 10)  //20 times shifting 1s
-	u = 1 << (iota * 10)  //30 times shifting 1s
+	s = 1 << (iota * 10) //10 times shifting 1s
+	t = 1 << (iota * 10) //20 times shifting 1s
+	u = 1 << (iota * 10) //30 times shifting 1s
 )
 
 func main() {

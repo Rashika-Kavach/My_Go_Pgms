@@ -8,7 +8,7 @@ var y = 17
 // is of TYPE string
 // and I ASSIGN the VALUE "Done is better than Perfect!"
 
-var z string ="Done is better than Perfect!"
+var z string = "Done is better than Perfect!"
 
 // this is a STATIC programming language
 // a VARIABLE is DECLARED to hold a VALUE of a certain TYPE

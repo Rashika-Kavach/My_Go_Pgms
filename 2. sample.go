@@ -5,8 +5,8 @@ import "fmt"
 func main() {
 	fmt.Println("First Statement")
 	foo()
-	for i:=0; i<=100; i++ {
-		if i%2==0 {
+	for i := 0; i <= 100; i++ {
+		if i%2 == 0 {
 			fmt.Println(i)
 		}
 	}
@@ -22,6 +22,6 @@ func bar() {
 }
 
 //control flow
-// 1) Sequencial flow
+// 1) Sequential flow
 // 2) Iterative / Loop
 // 3) Conditional flow

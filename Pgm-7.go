@@ -7,11 +7,9 @@ package main
 
 import "fmt"
 
-
 func main() {
 	l := 25
 	fmt.Printf("%b\t%x\t%d\n", l, l, l)
 	o := l << 1
 	fmt.Printf("%b\t%x\t%d\n", o, o, o)
 }
-

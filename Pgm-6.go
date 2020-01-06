@@ -9,7 +9,7 @@ import "fmt"
 
 const (
 	cat int = 23 //typed constant
-	dog = 45    //untyped constant
+	dog     = 45 //untyped constant
 )
 
 func main() {
@@ -25,5 +25,3 @@ func main() {
 	fmt.Println(a, b, c, d, e, f)
 	fmt.Println(cat, dog)
 }
-
-
